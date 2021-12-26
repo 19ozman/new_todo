@@ -1,0 +1,21 @@
+{
+	"name": "parcel_cypress",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"cypress:open": "cypress open",
+		"build": "parcel src/index.html"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"typescript": "^4.5.2"
+	},
+	"devDependencies": {
+		"cypress": "^9.1.0",
+		"parcel": "^2.0.1"
+	}
+}
